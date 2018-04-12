@@ -30,7 +30,7 @@ def open_page():
     c = conn.cursor()
     c.execute("SELECT id, task FROM todo WHERE status=1")
     result = c.fetchall()
-    print(result[0][0])
+    #print(result[0][0])
     c.close()
     output = bt.template('make_table', rows=result,Open="Open")
     return output
