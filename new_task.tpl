@@ -1,6 +1,6 @@
 <p>Add a new task to the ToDo list:</p>
 <form action="/new" method="GET">
-  <input type="text" size="100" maxlength="100" name="task" value="Write task here">
+  <input type="text" size="100" maxlength="100" name="task" placeholder="Write task here">
   <select name="status">
 	<option value="Open">Open</option>
 	<option value="Close">Close</option>	
